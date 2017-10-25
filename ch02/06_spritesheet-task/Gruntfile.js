@@ -5,8 +5,8 @@ module.exports = function(grunt){
     sprite: {
       icons: {
         src: 'public/img/icons/*.png',
-        destImg: 'build/img/icons.png',
-        destCSS: 'build/css/icons.css'
+        dest: 'build/img/icons.png',
+        destCss: 'build/css/icons.css'
       }
     }
   });
